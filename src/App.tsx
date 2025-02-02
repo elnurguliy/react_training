@@ -18,7 +18,7 @@ const projectArray: string[] = [
     "Angular Game",
 ];
 
-const porjectObjects = projectArray.map((project, i) => ({
+const projectObjects = projectArray.map((project, i) => ({
     id: i,
     title: project
 }));
@@ -70,7 +70,7 @@ function App() {
 
             <PortfolioHeader name="Portfolio" year={new Date().getFullYear()} />
 
-            <Main projects={porjectObjects} />
+            <Main projects={projectObjects} />
             <main>
                 <h2 className="mt-4">Time to impress the employers.</h2>
             </main>
